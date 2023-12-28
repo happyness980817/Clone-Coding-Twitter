@@ -8,3 +8,5 @@ export default function ProtectedRoute({children,}: {children: React.ReactNode;}
   }
   return children // this becomes <Home /> or <Profile />
 }
+
+// this file protects users from profile and home page when not logged in.
